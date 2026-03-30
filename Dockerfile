@@ -1,4 +1,5 @@
 FROM public.ecr.aws/docker/library/python:3
+ENV LOG_LEVEL=INFO
 WORKDIR /app
 RUN useradd -m appuser
 COPY requirements.txt /app/
