@@ -8,7 +8,7 @@ on:
     branches: [ main ]
 jobs:
   build:
-    if: contains(github.event.head_commit.modified, '.md') 
+    if: contains(github.event.head_commit.modified, '.md') == false
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
