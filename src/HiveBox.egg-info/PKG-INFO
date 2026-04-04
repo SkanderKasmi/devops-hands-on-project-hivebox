@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: HiveBox
+Version: 0.1.0
+Summary: HiveBox API for retrieving and processing temperature data from HiveBox sensors
+Requires-Dist: Flask
+Requires-Dist: requests
+Requires-Dist: pyctuator
+Dynamic: requires-dist
+Dynamic: summary
