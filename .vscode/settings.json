@@ -1,3 +1,4 @@
 {
-    "yaml.schemaStore.enable": false
+    "yaml.schemaStore.enable": false,
+    "python-envs.defaultEnvManager": "ms-python.python:system"
 }

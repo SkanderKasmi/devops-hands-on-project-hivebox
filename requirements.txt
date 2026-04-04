@@ -6,3 +6,7 @@ pytest-cov == 4.0.0
 coverage == 7.2.7
 pylint == 3.0.0
 flake8 == 6.0.0
+pyctuator == 1.2.0
+prometheus-client == 0.24.1
+psutil == 5.9.4
+ipinfo == 4.0.0
